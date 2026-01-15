@@ -1,0 +1,19 @@
+{
+  "name": "mobile-contacts-template",
+  "version": "1.0.0",
+  "description": "This is a mobile contact web template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kacMadushan/mobile-contacts-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kacMadushan/mobile-contacts-template/issues"
+  },
+  "homepage": "https://github.com/kacMadushan/mobile-contacts-template#readme"
+}
