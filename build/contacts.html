@@ -20,8 +20,221 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <main>
-      <div>Contacts Page</div>
+    <main class="min-h-dvh p-4">
+      <div class="mx-auto w-full rounded-xl bg-red-50 p-3 lg:max-w-md">
+        <div class="mb-3 flex items-center justify-between">
+          <h1 class="text-3xl font-medium text-amber-950">Contacts</h1>
+          <a
+            class="rounded-full bg-amber-950 px-4 py-2 text-sm font-medium text-white hover:bg-amber-900"
+            href="#"
+            ><i class="fa-solid fa-plus"></i> New</a
+          >
+        </div>
+        <div class="relative mb-3">
+          <input
+            class="w-full rounded-md border border-white bg-white px-8 py-2 text-sm text-amber-950 outline-0 placeholder:text-amber-950"
+            type="text"
+            placeholder="Search Contacts"
+          />
+          <div class="absolute top-2 left-2.5 text-sm text-amber-950">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+        <div class="mb-3 flex items-center gap-x-1.5">
+          <button
+            class="w-full cursor-pointer rounded-full bg-amber-950 px-4 py-2 text-sm font-medium text-white"
+          >
+            All
+          </button>
+          <button
+            class="w-full cursor-pointer rounded-full bg-white px-4 py-2 text-sm font-medium text-amber-950"
+          >
+            Favorites
+          </button>
+        </div>
+        <div>
+          <ul class="flex flex-col">
+            <li
+              class="flex items-center justify-between rounded-tl-lg rounded-tr-lg border-b border-red-50 bg-white p-3"
+            >
+              <a class="flex flex-1 items-center gap-x-2" href="">
+                <img class="size-9 rounded-full" src="./images/1.jpg" alt="" />
+                <div>
+                  <h5 class="text-sm font-medium text-amber-950">
+                    Olivia Rhye
+                  </h5>
+                  <span class="block text-[10px] font-semibold"
+                    >770-736-8031</span
+                  >
+                </div>
+              </a>
+              <button
+                class="size-9 cursor-pointer rounded-full py-1.75 text-base text-amber-950 hover:bg-red-100"
+              >
+                <i class="fa-regular fa-heart"></i>
+              </button>
+            </li>
+            <li
+              class="flex items-center justify-between border-b border-red-50 bg-white p-3"
+            >
+              <a class="flex flex-1 items-center gap-x-2" href="">
+                <img class="size-9 rounded-full" src="./images/2.jpg" alt="" />
+                <div>
+                  <h5 class="text-sm font-medium text-amber-950">
+                    Amélie Laurent
+                  </h5>
+                  <span class="block text-[10px] font-semibold"
+                    >010-692-6593</span
+                  >
+                </div>
+              </a>
+              <button
+                class="size-9 cursor-pointer rounded-full py-1.75 text-base text-amber-950 hover:bg-red-100"
+              >
+                <i class="fa-regular fa-heart"></i>
+              </button>
+            </li>
+            <li
+              class="flex items-center justify-between border-b border-red-50 bg-white p-3"
+            >
+              <a class="flex flex-1 items-center gap-x-2" href="">
+                <img class="size-9 rounded-full" src="./images/3.jpg" alt="" />
+                <div>
+                  <h5 class="text-sm font-medium text-amber-950">
+                    Ashwin Santiago
+                  </h5>
+                  <span class="block text-[10px] font-semibold"
+                    >463-123-4447</span
+                  >
+                </div>
+              </a>
+              <button
+                class="size-9 cursor-pointer rounded-full py-1.75 text-base text-amber-950 hover:bg-red-100"
+              >
+                <i class="fa-regular fa-heart"></i>
+              </button>
+            </li>
+            <li
+              class="flex items-center justify-between border-b border-red-50 bg-white p-3"
+            >
+              <a class="flex flex-1 items-center gap-x-2" href="">
+                <img class="size-9 rounded-full" src="./images/4.jpg" alt="" />
+                <div>
+                  <h5 class="text-sm font-medium text-amber-950">Drew Cano</h5>
+                  <span class="block text-[10px] font-semibold"
+                    >493-170-9623</span
+                  >
+                </div>
+              </a>
+              <button
+                class="size-9 cursor-pointer rounded-full py-1.75 text-base text-amber-950 hover:bg-red-100"
+              >
+                <i class="fa-regular fa-heart"></i>
+              </button>
+            </li>
+            <li
+              class="flex items-center justify-between border-b border-red-50 bg-white p-3"
+            >
+              <a class="flex flex-1 items-center gap-x-2" href="">
+                <img class="size-9 rounded-full" src="./images/5.jpg" alt="" />
+                <div>
+                  <h5 class="text-sm font-medium text-amber-950">
+                    Kari Rasmussen
+                  </h5>
+                  <span class="block text-[10px] font-semibold"
+                    >254-954-1289</span
+                  >
+                </div>
+              </a>
+              <button
+                class="size-9 cursor-pointer rounded-full py-1.75 text-base text-amber-950 hover:bg-red-100"
+              >
+                <i class="fa-regular fa-heart"></i>
+              </button>
+            </li>
+            <li
+              class="flex items-center justify-between border-b border-red-50 bg-white p-3"
+            >
+              <a class="flex flex-1 items-center gap-x-2" href="">
+                <img class="size-9 rounded-full" src="./images/7.jpg" alt="" />
+                <div>
+                  <h5 class="text-sm font-medium text-amber-950">
+                    Lana Steiner
+                  </h5>
+                  <span class="block text-[10px] font-semibold"
+                    >477-935-8478</span
+                  >
+                </div>
+              </a>
+              <button
+                class="size-9 cursor-pointer rounded-full py-1.75 text-base text-amber-950 hover:bg-red-100"
+              >
+                <i class="fa-regular fa-heart"></i>
+              </button>
+            </li>
+            <li
+              class="flex items-center justify-between border-b border-red-50 bg-white p-3"
+            >
+              <a class="flex flex-1 items-center gap-x-2" href="">
+                <img class="size-9 rounded-full" src="./images/6.jpg" alt="" />
+                <div>
+                  <h5 class="text-sm font-medium text-amber-950">
+                    Koray Okumus
+                  </h5>
+                  <span class="block text-[10px] font-semibold"
+                    >210-067-6132</span
+                  >
+                </div>
+              </a>
+              <button
+                class="size-9 cursor-pointer rounded-full py-1.75 text-base text-amber-950 hover:bg-red-100"
+              >
+                <i class="fa-regular fa-heart"></i>
+              </button>
+            </li>
+            <li
+              class="flex items-center justify-between border-b border-red-50 bg-white p-3"
+            >
+              <a class="flex flex-1 items-center gap-x-2" href="">
+                <img class="size-9 rounded-full" src="./images/8.jpg" alt="" />
+                <div>
+                  <h5 class="text-sm font-medium text-amber-950">
+                    Koray Okumus
+                  </h5>
+                  <span class="block text-[10px] font-semibold"
+                    >586-493-6943</span
+                  >
+                </div>
+              </a>
+              <button
+                class="size-9 cursor-pointer rounded-full py-1.75 text-base text-amber-950 hover:bg-red-100"
+              >
+                <i class="fa-regular fa-heart"></i>
+              </button>
+            </li>
+            <li
+              class="flex items-center justify-between rounded-br-lg rounded-bl-lg bg-white p-3"
+            >
+              <a class="flex flex-1 items-center gap-x-2" href="">
+                <img class="size-9 rounded-full" src="./images/9.jpg" alt="" />
+                <div>
+                  <h5 class="text-sm font-medium text-amber-950">
+                    Natali Craig
+                  </h5>
+                  <span class="block text-[10px] font-semibold"
+                    >775-976-6794</span
+                  >
+                </div>
+              </a>
+              <button
+                class="size-9 cursor-pointer rounded-full py-1.75 text-base text-amber-950 hover:bg-red-100"
+              >
+                <i class="fa-regular fa-heart"></i>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
     </main>
   </body>
 </html>
