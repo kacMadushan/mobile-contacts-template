@@ -1,5 +1,3 @@
-# Mobile contacts web template
+# Contacts Web Template
 
-This is a mobile contact web template
-
-(https://github.com/kacMadushan/mobile-contacts-template/tree/ui-design/build/images/screen.png)
+Welcome to the official repository for the contacts web template. This project is designed to provide information about mobile contact app, showcase it's features, and offer a seamless user experience for visit and learn more about this web template. This template designed by HTML and TailwindCSS.
