@@ -2,4 +2,4 @@
 
 This is a mobile contact web template
 
-(https://github.com/kacMadushan/mobile-contacts-template/build/images/screen.png)
+(https://github.com/kacMadushan/mobile-contacts-template/tree/ui-design/build/images/screen.png)
